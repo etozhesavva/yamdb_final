@@ -168,7 +168,7 @@ Response body
 Более полная документация с описанием доступных запросов, ответов и статусов, расположена по адресу - http://localhost/redoc/
 
 ### Авторы:
-Stanislav Tutunaru
+Savva Romanov
 
 ### Лицензия:
 
