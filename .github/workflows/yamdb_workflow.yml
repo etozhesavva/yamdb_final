@@ -65,7 +65,9 @@ jobs:
           username: ${{ secrets.USER }}
           key: ${{ secrets.SSH_KEY }}
           passphrase: ${{ secrets.PASSPHRASE }}
-          script: |
+          script: 
+            cd yamdb_final/
+            cd infra/
             sudo systemctl stop nginx
             sudo docker-compose pull
             touch .env
