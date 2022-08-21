@@ -75,14 +75,6 @@ docker-compose exec web python manage.py collectstatic --no-input
 docker-compose exec web python manage.py loaddata fixtures.json
 ```
 
-Проект будет доступен по следующему адресу:
-
-http://localhost/
-
-### Запросы / ответы:
-
-* http://localhost/admin - панель администратора
-* GET http://localhost/api/v1/categories/ - список всех категорий
 ```
 HTTP Statuses: 200
 ```
