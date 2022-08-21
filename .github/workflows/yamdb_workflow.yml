@@ -48,8 +48,9 @@ jobs:
       - name: Push to Docker Hub
         uses: docker/build-push-action@v2
         with:
+          context: ./api_yamdb
           push: true
-          tags: etozhesavva/yamdb_final
+          tags: etozhesavva/yamdb_final:latest
 
   deploy:
     runs-on: ubuntu-latest
