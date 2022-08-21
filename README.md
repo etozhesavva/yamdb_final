@@ -1,5 +1,5 @@
 # yamdb_final
-#### проект доступен по адресу: http://51.250.107.213
+#### проект доступен по адресу: http://51.250.107.17/redoc/
 
 ![example workflow](https://github.com/etozhesavva/yamdb_final/actions/workflows/yamdb_workflow.yml/badge.svg)
 
