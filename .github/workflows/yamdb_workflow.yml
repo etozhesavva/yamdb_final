@@ -50,7 +50,7 @@ jobs:
         with:
           context: ./api_yamdb
           push: true
-          tags: etozhesavva/yamdb_final:latest
+          tags: ${{ secrets.DOCKER_USERNAME }}/yamdb_final:latest
 
   deploy:
     runs-on: ubuntu-latest
